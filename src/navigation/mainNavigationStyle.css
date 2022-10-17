@@ -1,0 +1,56 @@
+/*
+    The main navigation css styles
+*/
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: lightsteelblue;
+    padding: 5%;
+    font-size: 18px;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+.subMenuLink:hover {
+    text-decoration: underline;
+    background-color: white;
+}
+
+.submenu_ison {
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.submenu_isoff {
+    display: none;
+}
+
+
+#mainTitleLink {
+    font-size: 2em;
+}
+
+#btnDrpDown {
+    margin: 2%;
+    padding: 2%;
+    width: 50px;
+    border-style: none;
+    background-color: lightyellow;
+    float: right;
+}
+
+#btnDrpDown:hover {
+    background-color: yellow;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+}
+
